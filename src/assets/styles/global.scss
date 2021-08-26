@@ -1,0 +1,22 @@
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: $dark;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-color;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
